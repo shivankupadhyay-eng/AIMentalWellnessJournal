@@ -1,0 +1,41 @@
+# Root .gitignore for the entire project
+
+# Node modules
+node_modules/
+Frontend/node_modules/
+
+# Python Virtual Environments
+venv/
+env/
+.env
+Backend/venv/
+Backend/env/
+__pycache__/
+*.pyc
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+Frontend/dist/
+Frontend/build/
+
+# Database files
+*.sqlite3
+Backend/db.sqlite3
+*.rdb
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
